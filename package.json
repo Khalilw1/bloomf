@@ -1,0 +1,12 @@
+{
+  "name": "bloomf",
+  "version": "1.0.0",
+  "description": "Bloom Filter implementation at the tip of your require.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mohammed Khalil Ait Brahim <mohammed.khalil.ab@gmail.com>",
+  "license": "ISC"
+}
