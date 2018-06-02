@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [],
+  "keywords": ["bloom filter", "probabilistic data structure", "bloomfilter"],
   "author": "Mohammed Khalil Ait Brahim <mohammed.khalil.ab@gmail.com>",
   "license": "ISC",
   "devDependencies": {
