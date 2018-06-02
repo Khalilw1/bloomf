@@ -25,6 +25,6 @@ bl.insert(3);
 bl.insert("bloblo");
 
 bl.test(3) // returns true
-bl.test("bloblo") // returns false
+bl.test("bloblo") // returns true
 
 ```
