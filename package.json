@@ -1,12 +1,16 @@
 {
   "name": "bloomf",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Bloom Filter implementation at the tip of your require.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "keywords": ["bloom filter", "probabilistic data structure", "bloomfilter"],
+  "keywords": [
+    "bloom filter",
+    "probabilistic data structure",
+    "bloomfilter"
+  ],
   "author": "Mohammed Khalil Ait Brahim <mohammed.khalil.ab@gmail.com>",
   "license": "ISC",
   "devDependencies": {
