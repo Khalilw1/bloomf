@@ -4,7 +4,8 @@
   "description": "Bloom Filter implementation at the tip of your require.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "keywords": [
     "bloom filter",
@@ -14,6 +15,8 @@
   "author": "Mohammed Khalil Ait Brahim <mohammed.khalil.ab@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "coveralls": "^3.0.1",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0"
   },
   "engines": {
