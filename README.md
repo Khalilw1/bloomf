@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/Khalilw1/bloomf.svg?branch=master)](https://travis-ci.org/Khalilw1/bloomf)
 [![Coverage Status](https://coveralls.io/repos/github/Khalilw1/bloomf/badge.svg?branch=master)](https://coveralls.io/github/Khalilw1/bloomf?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # bloomf
 
