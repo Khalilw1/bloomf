@@ -32,3 +32,8 @@ bl.test(3) // returns true
 bl.test("bloblo") // returns true
 
 ```
+
+# Improvements
+- Use better hashing functions than the linear hashing function
+- make better accuracy tests
+- offer multiple constructors

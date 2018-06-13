@@ -12,6 +12,10 @@
     "probabilistic data structure",
     "bloomfilter"
   ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/khalilw1/bloomf.git"
+  },
   "author": "Mohammed Khalil Ait Brahim <mohammed.khalil.ab@gmail.com>",
   "license": "ISC",
   "devDependencies": {

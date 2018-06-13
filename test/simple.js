@@ -22,7 +22,7 @@ const samples = [{
 }];
 
 
-describe('hard coded insertion and checks', () => {
+describe('hard coded insertion and checks test', () => {
   samples.forEach((sample) => {
     it(sample.desc, () => {
       const bl = new BloomF(sample.n, sample.k);
