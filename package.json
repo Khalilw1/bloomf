@@ -1,11 +1,11 @@
 {
   "name": "bloomf",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "Bloom Filter implementation at the tip of your require.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --timeout 15000",
-     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/* --timeout 15000"
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/* --timeout 15000"
   },
   "keywords": [
     "bloom filter",
