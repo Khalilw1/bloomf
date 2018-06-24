@@ -9,7 +9,7 @@ This package implements a bloom filter for a general type of usage. It uses FNV 
 # features
 
 - Initializing Bloom Filter requires only the size of the filter and the number of hashing functions.
-- Usage of Uint32Array TypedArray to ensure minimal memory footprint.
+- Usage of Uint8Array TypedArray to ensure minimal memory footprint.
 - Usage of bit operation to operate on our bit set implies better performance (to be test thouroughtly).
 - FNV hash and simple linear hash used as hashing functions.
 - Possibility to insert different element types (Number, String) by converting them into strings.
@@ -35,5 +35,5 @@ bl.test("bloblo") // returns true
 
 # Improvements
 - Use better hashing functions than the linear hashing function
-- make better accuracy tests
 - offer multiple constructors
+- Check how feasable it is to transform any object into bytes in JavaScript
